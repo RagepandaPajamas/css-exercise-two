@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #5163A8;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 2em;
+  font-family: Arial;
 }
 
 nav {
@@ -9,6 +12,16 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+
+a {
+  text-decoration: none;
+}
+
+a:link { color: #FFFFFF; }
+a:visited { color: #FFFFFF; }
+a:hover { color: #66E8E9; }
+a:active { color: #888888; }
 
 .logo {
   margin: 20px;
@@ -30,6 +43,22 @@ nav {
 
 .right {
   float: right;
+  font-size: 2em;
+}
+
+figure {
+
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: capitalize;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
 ul {
@@ -44,6 +73,10 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+.story-text {
+  line-height: 2.5em;
 }
 
 .container {
