@@ -46,6 +46,10 @@ a:active { color: #888888; }
   font-size: 2em;
 }
 
+p {
+  margin-top: 1.5em;
+}
+
 figure {
 
 }
