@@ -13,7 +13,6 @@ nav {
   width: 100%;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -46,23 +45,18 @@ a:active { color: #888888; }
   font-size: 2em;
 }
 
-p {
-  margin-top: 1.5em;
-}
-
-figure {
-
-}
-
 h1 {
   font-size: 3em;
   text-transform: capitalize;
   line-height: 2em;
+  padding-top: 2em;
 }
 
 h3 {
   font-size: 1.5em;
   line-height: 2em;
+  padding-top: 1.5em;
+  font-style: italic;
 }
 
 ul {
@@ -78,9 +72,14 @@ li {
 article {
   padding-top: 100px;
 }
+p {
+  margin-top: 1.5em;
+  padding-top: 10px;
+}
 
 .story-text {
   line-height: 2.5em;
+  padding-top: 2em;
 }
 
 .container {
